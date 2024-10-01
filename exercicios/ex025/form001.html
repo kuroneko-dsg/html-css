@@ -13,8 +13,10 @@
 <body>
     <h1>Meu primeiro formulário</h1>
     <form action="cadastro.php" autocomplete="off">
-        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="isobrenome"></p>
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p> <!-- name é mais útil para HTML e PHP -->
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="Sobrenome" id="isobrenome"></p> <!-- id é mais útil para JavaScript -->
         <p><input type="submit" value="Enviar"></p>
 
     </form>
